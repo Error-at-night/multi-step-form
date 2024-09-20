@@ -28,8 +28,8 @@ Users are be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/multistep-form-using-reactjs-react-hook-form-redux-tailwindcss-Vzg8479vYo)
-- Live Site URL: [Add live site URL here](https://multi-step-form-success.vercel.app/)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/multistep-form-using-reactjs-react-hook-form-redux-tailwindcss-Vzg8479vYo)
+- Live Site URL: [Live URL](https://multi-step-form-success.vercel.app/)
 
 ### Built with
 
