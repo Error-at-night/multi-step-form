@@ -31,7 +31,7 @@ function Personalinfo() {
           <label htmlFor="name" className="mb-1 font-semibold text-marineBlue">Name</label>
           {errors.name && <p className="text-strawberryRed text-end">{errors.name.message}</p>}
         </div>
-        <input type="text" id="name" placeholder="e.g. Stephen King" autoComplete="new-username"
+        <input type="text" id="name" placeholder="e.g. Stephen King"
           className={`border placeholder:font-medium border-lightGray focus:outline-none px-4 py-2 rounded-md cursor-pointer hover:border-purplishBlue focus:border-purplishBlue
             ${errors.name ? "border-strawberryRed hover:border-strawberryRed focus:border-strawberryRed" : ""}
           `}
@@ -49,7 +49,7 @@ function Personalinfo() {
           <label htmlFor="email" className="mb-1 font-semibold text-marineBlue">Email Address</label>
           {errors.email && <p className="text-strawberryRed text-end">{errors.email.message}</p>}
         </div>
-        <input type="email" id="email" placeholder="e.g. stephenking@gmail.com" autoComplete="new-email"
+        <input type="email" id="email" placeholder="e.g. stephenking@gmail.com"
           className={`border border-lightGray placeholder:font-medium focus:outline-none px-4 py-2 rounded-md cursor-pointer hover:border-purplishBlue focus:border-purplishBlue
             ${errors.email ? "border-strawberryRed hover:border-strawberryRed focus:border-strawberryRed" : ""}`            
           }

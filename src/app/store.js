@@ -3,8 +3,8 @@ import formReducer from "../features/formSlice";
 
 const saveToLocalStorage = (state) => {
   try {
-    const serializedState = JSON.stringify(state);
-    localStorage.setItem("formState", serializedState);
+    const covertStateToString = JSON.stringify(state);
+    localStorage.setItem("formState", covertStateToString);
   } catch (e) {
     console.error("Could not save state", e);
   }
@@ -12,21 +12,21 @@ const saveToLocalStorage = (state) => {
 
 const loadFromLocalStorage = () => {
   try {
-    const serializedState = localStorage.getItem("formState");
-    return serializedState ? JSON.parse(serializedState) : undefined;
+    const getState = localStorage.getItem("formState");
+    return getState ? JSON.parse(getState) : undefined;
   } catch (e) {
     console.error("Could not load state", e);
     return undefined;
   }
 };
 
-const preloadedState = loadFromLocalStorage() 
+const getState = loadFromLocalStorage() 
 
 const store = configureStore({
   reducer: {
     form: formReducer,
   },
-  preloadedState,
+  getState,
 });
 
 store.subscribe(() => {

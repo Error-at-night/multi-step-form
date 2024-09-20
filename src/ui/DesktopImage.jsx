@@ -33,7 +33,7 @@ function DesktopImage() {
             `}
             >1</span>
             <div className="ms-5">
-              <span className="text-coolGray">Step 1</span>
+              <span className="text-coolGray uppercase">Step 1</span>
               <p className="text-white font-bold uppercase">Your info</p>
             </div>
           </div>
@@ -43,7 +43,7 @@ function DesktopImage() {
             `}
             >2</span>
             <div className="ms-5">
-              <span className="text-coolGray">Step 2</span>
+              <span className="text-coolGray uppercase">Step 2</span>
               <p className="text-white font-bold uppercase">Select plan</p>
             </div>
           </div>
@@ -53,7 +53,7 @@ function DesktopImage() {
             `}
             >3</span>
             <div className="ms-5">
-              <span className="text-coolGray">Step 3</span>
+              <span className="text-coolGray uppercase">Step 3</span>
               <p className="text-white font-bold uppercase">Add-ons</p>
             </div>
           </div>
@@ -63,7 +63,7 @@ function DesktopImage() {
             `}
             >4</span>
             <div className="ms-5">
-              <span className="text-coolGray">Step 4</span>
+              <span className="text-coolGray uppercase">Step 4</span>
               <p className="text-white font-bold uppercase">Summary</p>
             </div>
           </div>
