@@ -22,7 +22,7 @@ function Personalinfo() {
   return (
     <form className="w-full" onSubmit={handleSubmit(onSubmit)}>
       <div>
-        <h1 className="text-marineBlue text-[1.8rem] sm:text-[2rem] md:text-[2.2rem] lg:text-[2.5rem] font-bold">Personal Info</h1>
+        <h1 className="text-marineBlue text-[1.8rem] sm:text-[2rem] md:text-[2.2rem] lg:text-[2.5rem] font-bold">Personal info</h1>
         <p className="text-coolGray">Please provide your name, email address, and phone number.</p>
       </div>
 

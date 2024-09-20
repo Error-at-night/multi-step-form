@@ -1,8 +1,46 @@
-# React + Vite
+# Frontend Mentor - Multi-step form solution
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a solution to the [Multi-step form challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/multistep-form-YVAnSdqQBJ). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-Currently, two official plugins are available:
+## Table of contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Links](#links)
+  - [Built with](#built-with)
+  - [Author](#author)
+
+## Overview
+
+### The challenge
+
+Users are be able to:
+
+- Complete each step of the sequence
+- Go back to a previous step to update their selections
+- See a summary of their selections on the final step and confirm their order
+- View the optimal layout for the interface depending on their device's screen size
+- See hover and focus states for all interactive elements on the page
+- Receive form validation messages if:
+  - A field has been missed
+  - The email address is not formatted correctly
+  - A step is submitted, but no selection has been made
+
+### Links
+
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/multistep-form-using-reactjs-react-hook-form-redux-tailwindcss-Vzg8479vYo)
+- Live Site URL: [Add live site URL here](https://multi-step-form-success.vercel.app/)
+
+### Built with
+
+- Semantic HTML5 markup
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+- [Tailwindcss](https://tailwindcss.com/) - For styles
+- [React-hook-form](https://react-hook-form.com/) - For handling form validation
+- [Redux](https://redux-toolkit.js.org/) - For state management
+
+## Author
+
+- Frontend Mentor - [@Error-at-night](https://www.frontendmentor.io/profile/Error-at-night)
+- Twitter - [@ogsuccessful_](https://www.twitter.com/ogsuccessful_)

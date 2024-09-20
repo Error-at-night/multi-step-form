@@ -28,8 +28,8 @@ function DesktopImage() {
       <div className="absolute top-12 left-8">
         <div className="md:flex-col hidden md:flex">
           <div className="flex mb-8 items-center">
-            <span className={`border border-white py-2 px-3 rounded-full w-10 h-10 flex items-center justify-center
-             ${index === 1 ? "bg-lightBlue border-none" : ""}
+            <span className={`border border-white text-white py-2 px-3 rounded-full w-10 h-10 flex items-center justify-center
+             ${index === 1 ? "bg-lightBlue border-none text-black" : ""}
             `}
             >1</span>
             <div className="ms-5">
@@ -38,8 +38,8 @@ function DesktopImage() {
             </div>
           </div>
           <div className="flex mb-8 items-center">
-            <span className={`border border-white py-2 px-3 rounded-full w-10 h-10 flex items-center justify-center
-              ${index === 2 ? "bg-lightBlue border-none" : ""}
+            <span className={`border border-white text-white py-2 px-3 rounded-full w-10 h-10 flex items-center justify-center
+              ${index === 2 ? "bg-lightBlue border-none text-black" : ""}
             `}
             >2</span>
             <div className="ms-5">
@@ -48,8 +48,8 @@ function DesktopImage() {
             </div>
           </div>
           <div className="flex mb-8 items-center">
-          <span className={`border border-white py-2 px-3 rounded-full w-10 h-10 flex items-center justify-center
-              ${index === 3 ? "bg-lightBlue border-none" : ""}
+          <span className={`border border-white text-white py-2 px-3 rounded-full w-10 h-10 flex items-center justify-center
+              ${index === 3 ? "bg-lightBlue border-none text-black" : ""}
             `}
             >3</span>
             <div className="ms-5">
@@ -58,8 +58,8 @@ function DesktopImage() {
             </div>
           </div>
           <div className="flex items-center">
-          <span className={`border border-white py-2 px-3 rounded-full w-10 h-10 flex items-center justify-center
-              ${index === 4 ? "bg-lightBlue border-none" : ""}
+          <span className={`border border-white text-white py-2 px-3 rounded-full w-10 h-10 flex items-center justify-center
+              ${index === 4 ? "bg-lightBlue border-none text-black" : ""}
             `}
             >4</span>
             <div className="ms-5">
