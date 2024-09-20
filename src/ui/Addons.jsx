@@ -41,6 +41,11 @@ function Addons() {
     navigate("/summary");
   }
 
+  function handleNavigate() {
+    navigate("/select-plan")
+    dispatch(setAddOns([]))
+  }
+
   return (
     <form className="w-full" onSubmit={handleSubmit(onSubmit)}>
       <div>
@@ -100,7 +105,7 @@ function Addons() {
         <button
           type="submit"
           className="text-coolGray hover:text-marineBlue font-bold"
-          onClick={() =>  navigate("/select-plan")}
+          onClick={handleNavigate}
         >
           Go Back
         </button>
